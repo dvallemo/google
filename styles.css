@@ -16,6 +16,21 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
+nav, 
+section {/*use nav,section becuase you want to do this for the left(nav) and right(section) sides*/
+    display: flex; 
+    align-items: center;
+    gap: 14px; /*creat gap between about, store and Gmail, Imagaes*/
+}
+
+.greyLink{
+    color:grey;
+}
+
+.whiteLink{
+    color:white;
+}
     
 
         
