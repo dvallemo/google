@@ -9,6 +9,9 @@ body{
     color:white;
     padding: 14px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
 
 header{
@@ -30,6 +33,18 @@ section {/*use nav,section becuase you want to do this for the left(nav) and rig
 
 .whiteLink{
     color:white;
+}
+
+a{
+    text-decoration: unset; /*unsets the line under all anchors, about, store, gmail, and imges*/
+}
+
+a:hover{
+    text-decoration: underline; /*when hovering the anchors, the appereace of the texts are underlines*/
+}
+
+main{
+    flex: 1;
 }
     
 
