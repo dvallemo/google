@@ -37,7 +37,7 @@ In summary, while both (div) and (section) can be used for grouping content, (di
 
 ### What is the span tag used for?
 Answer:
-The <span> tag in HTML is a generic inline container that is used to group and apply styles to inline elements. It doesn't have any specific semantic meaning on its own. Instead, it is often used with CSS to apply styling or JavaScript to manipulate the content within the <span>.
+The span tag in HTML is a generic inline container that is used to group and apply styles to inline elements. It doesn't have any specific semantic meaning on its own. Instead, it is often used with CSS to apply styling or JavaScript to manipulate the content within the span tag. The span tag in HTML is a generic inline container that is used to group and apply styles to inline elements. It doesn't have any specific semantic meaning on its own. Instead, it is often used with CSS to apply styling or JavaScript to manipulate the content within the <span>.
 # Problems with github:
 
 I was not getting updated data to github even though the linux terminal told me there were no updates left. So what I did some research and created a new repository. Then I got another error saying I dont had the rights when pushing. So I removed the remote repo from my computer and created a new one. I follwed all the steps on github.com for transferring an existing repository to github. Then I tried pushing without commiting and got another error. After a bit of research I realized I forgot to commit first. Now I have a new repository that works and updates github everytime I commit and push my new data. 
