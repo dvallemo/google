@@ -1,5 +1,5 @@
 # Google clone
-Builidng a google clone to learn basics of html and css
+Builidng a Google clone to learn basics of html and css
 
 
 ## Problems encountered 
@@ -47,6 +47,11 @@ For example, you might use the span tag to apply a specific style to a portion o
 # Problems with github:
 
 I was not getting updated data to github even though the linux terminal told me there were no updates left. So what I did some research and created a new repository. Then I got another error saying I dont had the rights when pushing. So I removed the remote repo from my computer and created a new one. I follwed all the steps on github.com for transferring an existing repository to github. Then I tried pushing without commiting and got another error. After a bit of research I realized I forgot to commit first. Now I have a new repository that works and updates github everytime I commit and push my new data. 
+
+## Confusing tags:
+figure tag: figure indents a picture and separates it form other things likee text,you can add an image, a figcaption, and a embed a link to the picture
+
+the label tag: tricky thing to understand. But this tag basically just enables you to be able to click on a word and have form to be activated right next to it. A form tag is used to create an HTML form that allows users to input data and submit it to a server for processing. Forms are a crucial part of web development, enabling interactions like user authentication, data entry, and various other types of user input. For example on one of the projects there was a radio button next to a text. Without the label tag clicking on the text next to the radio button would not do anything. But once I implemented the label tag inside the input type radio, it enabled me to be able to click on the radio button even if I just clicked on the text next to it. That is the power of the label tag
 
 ## Tags to remember 
 
