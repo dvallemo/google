@@ -1,23 +1,23 @@
-*{
+*{                                  /* * allows to be able to edit eveything in the page of the site*/                          /**/
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;         /*sets a border to the main so that we can see all the text on the page*/
 }
 
 body{
     background: #0f172a; 
     color:white;
-    padding: 14px;
-    min-height: 100vh;
-    display: flex;
+    padding: 14px;     /*padding reduces or increases the outside area of the body, there is a pad area that can be changed. This can create margins on the body*/
+    min-height: 100vh; /*vh sets the content of the body to extend further down to the available space*/
+    display: flex;     /*flex is a style of display that are flexible containers, its default is containers in a row*/ 
     flex-direction: column;
     gap: 14px;
 }
 
 header{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /*alligns in the vertical*/
+    justify-content: space-between; /*alligns in the horizontal, pushes anchors to other side of page*/
 }
 
 nav, 
@@ -37,6 +37,7 @@ section {/*use nav,section becuase you want to do this for the left(nav) and rig
 
 a{
     text-decoration: unset; /*unsets the line under all anchors, about, store, gmail, and imges*/
+    font-size: 0.8em;
 }
 
 a:hover{
@@ -44,7 +45,16 @@ a:hover{
 }
 
 main{
-    flex: 1;
+    flex: 1; /*makes the main container as greedy as possible, pushes footer to the bottom of the page*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.headerText{
+    font-size: 4em;
 }
     
 
