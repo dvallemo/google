@@ -55,5 +55,5 @@ the label tag: tricky thing to understand. But this tag basically just enables y
 
 ## Tags to remember 
 
-![image](https://github.com/dvallemo/google/assets/52580367/54f0cf0e-b4dc-4570-887d-5975f6000a18)
+![image](https://github.com/dvallemo/google/assets/52580367/d8f40288-2315-4f2c-bacb-df544827514e)
 
