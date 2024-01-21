@@ -47,3 +47,8 @@ For example, you might use the span tag to apply a specific style to a portion o
 # Problems with github:
 
 I was not getting updated data to github even though the linux terminal told me there were no updates left. So what I did some research and created a new repository. Then I got another error saying I dont had the rights when pushing. So I removed the remote repo from my computer and created a new one. I follwed all the steps on github.com for transferring an existing repository to github. Then I tried pushing without commiting and got another error. After a bit of research I realized I forgot to commit first. Now I have a new repository that works and updates github everytime I commit and push my new data. 
+
+## Tags to remember 
+
+![image](https://github.com/dvallemo/google/assets/52580367/54f0cf0e-b4dc-4570-887d-5975f6000a18)
+
