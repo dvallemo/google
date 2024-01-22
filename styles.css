@@ -55,6 +55,13 @@ main{
 
 .headerText{
     font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searchBar{
+    display: flex;
+    width: 100%;
+    max-width: 700px;
 }
     
 
