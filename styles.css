@@ -6,18 +6,20 @@
 
 body{
     background: #0f172a; 
-    color:white;
-    padding: 14px;     /*padding reduces or increases the outside area of the body, there is a pad area that can be changed. This can create margins on the body*/
+    color:#bdc1c6;
+    /*padding: 14px;*/     /*padding reduces or increases the outside area of the body, there is a pad area that can be changed. This can create margins on the body*/
     min-height: 100vh; /*vh sets the content of the body to extend further down to the available space*/
     display: flex;     /*flex is a style of display that are flexible containers, its default is containers in a row*/ 
     flex-direction: column;
     gap: 14px;
+    padding: 0 14px
 }
 
 header{
     display: flex;
     align-items: center; /*alligns in the vertical*/
     justify-content: space-between; /*alligns in the horizontal, pushes anchors to other side of page*/
+    padding: 14px;
 }
 
 nav, 
@@ -62,6 +64,74 @@ main{
     display: flex;
     width: 100%;
     max-width: 700px;
+    margin: 0 auto;
+    gap: 14px;
+    border: 1px solid grey;
+    padding: 14px;
+    border-radius: 24px;
+}
+
+.searchBar:hover{
+    border-color: transparent;
+    background: #334155;   /*from tailwind*/
+}
+
+input{
+    background: transparent;
+    outline: none;
+    border: unset;
+    color: white;
+    flex: 1;
+
+}
+
+.searchButtonsContainer{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.searchButtonsContainer button{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: #334155;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.searchButtonsContainer button:hover{
+    border: 1px solid darkgrey;
+}
+
+.languageSelection{
+    font-size: 0.9em;
+}
+
+.languageSelection a{
+    color:cyan;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer>section{
+    padding: 14px;
+    
+}
+
+footer>section:last-child{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid darkgray;
+    
+}
+
+.footerLink{
+
 }
     
 
