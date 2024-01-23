@@ -5,14 +5,14 @@
 }
 
 body{
-    background: #0f172a; 
+    background: #202124;
     color:#bdc1c6;
     /*padding: 14px;*/     /*padding reduces or increases the outside area of the body, there is a pad area that can be changed. This can create margins on the body*/
     min-height: 100vh; /*vh sets the content of the body to extend further down to the available space*/
     display: flex;     /*flex is a style of display that are flexible containers, its default is containers in a row*/ 
     flex-direction: column;
     gap: 14px;
-    padding: 0 14px
+    /* padding: 10px 20px;  vert, hor */
 }
 
 header{
@@ -27,11 +27,22 @@ section {/*use nav,section becuase you want to do this for the left(nav) and rig
     display: flex; 
     align-items: center;
     gap: 14px; /*creat gap between about, store and Gmail, Imagaes*/
+    padding: 10px 20px;
+    
 }
 
-.greyLink{
-    color:grey;
+header section img{
+    max-width: 45px;
+    border-radius: 50%;
+    border: 2px solid cyan
+
+
+
 }
+
+/* .greyLink{
+    color:grey;
+} */
 
 .whiteLink{
     color:white;
@@ -39,7 +50,8 @@ section {/*use nav,section becuase you want to do this for the left(nav) and rig
 
 a{
     text-decoration: unset; /*unsets the line under all anchors, about, store, gmail, and imges*/
-    font-size: 0.8em;
+    font-size: 1.2em;
+    width: max-content; /*bug, does not underline g in advertising*/
 }
 
 a:hover{
@@ -53,11 +65,20 @@ main{
     align-items: center;
     justify-content: center;
     gap: 24px;
+    padding: 0 14px;
+}
+
+.googleLogo{
+    font-size: 50px;
+    color: white;
+    font-family:sans-serif;
+
 }
 
 .headerText{
     font-size: 4em;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 .searchBar{
@@ -115,6 +136,7 @@ input{
 footer{
     display: flex;
     flex-direction: column;
+    font-size: 1.2em;
 }
 
 footer>section{
@@ -124,6 +146,7 @@ footer>section{
 
 footer>section:last-child{
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid darkgray;
@@ -131,6 +154,39 @@ footer>section:last-child{
 }
 
 .footerLink{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+}
+.footerLink a{
+    cursor: pointer;
+}
+
+.search_bar_container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+}
+
+.search_bar_buttons {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+
+/* .divlength{
+    max-width: none;
+    border:
+} */
+
+@media (min-width: 540px){
+    footer>section:last-child{
+        flex-direction: row;
+    }
 
 }
     
