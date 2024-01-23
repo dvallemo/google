@@ -57,3 +57,11 @@ the label tag: tricky thing to understand. But this tag basically just enables y
 
 ![image](https://github.com/dvallemo/google/assets/52580367/d8f40288-2315-4f2c-bacb-df544827514e)
 
+## Issues with V1 of the google clone
+1. the profile pic is not a perfect circle
+2. the footer anchors are not all the way to the right or left of the page
+3. the google and the search bar should be a bit up if we compare it with the original google
+
+## fixed
+1. fixed minor things with the colors and size of texts for background and texts
+
