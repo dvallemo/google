@@ -40,9 +40,9 @@ header section img{
 
 }
 
-/* .greyLink{
-    color:grey;
-} */
+.greyLink{
+    color:lightgrey;
+}
 
 .whiteLink{
     color:white;
