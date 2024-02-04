@@ -42,14 +42,14 @@ header section img{
 }
 
 .greyLink{
-    color:lightgrey;
+    color:lightgrey; /*class that allows us to set these anchor tags in a specific color*/
 }
 
 .whiteLink{
     color:white;
 }
 
-a{
+a{ /*targets all anchor tags*/
     text-decoration: unset; /*unsets the line under all anchors, about, store, gmail, and imges*/
     font-size: 1.2em;
     width: max-content; /*bug, does not underline g in advertising*/
@@ -61,9 +61,9 @@ a:hover{
 
 main{
     flex: 1; /*makes the main container as greedy as possible, pushes footer to the bottom of the page*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;/*allows you to align and edit different things/text inside a container, more custimization*/
+    flex-direction: column;/*this is one of the edits you can make with flex*/
+    align-items: center; /* need to align to center because flex messes with the alignment*/
     justify-content: center;
     gap: 24px;
     padding: 0 14px;
@@ -86,11 +86,11 @@ main{
     display: flex;
     width: 75%;
     max-width: 575px;
-    margin: 0 auto;
+    margin: 0 auto; /*margin = the space that surrounds the box*/
     gap: 14px;
-    border: 1px solid grey;
-    padding: 14px;
-    border-radius: 24px;
+    border: 1px solid grey;/*border=the box itself*/
+    padding: 14px;/*the space inside the box*/
+    border-radius: 24px; /*creates a fillet around the edges of the border box*/
 }
 
 .searchBar:hover{
