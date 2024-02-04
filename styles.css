@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     gap: 14px;
     /* padding: 10px 20px;  vert, hor */
+    
 }
 
 header{
@@ -66,13 +67,13 @@ main{
     justify-content: center;
     gap: 24px;
     padding: 0 14px;
+    padding-bottom: 22%;
 }
 
 .googleLogo{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
-    font-family:sans-serif;
-
+    font-family:sans-serif;    
 }
 
 .headerText{
@@ -83,8 +84,8 @@ main{
 
 .searchBar{
     display: flex;
-    width: 100%;
-    max-width: 700px;
+    width: 75%;
+    max-width: 575px;
     margin: 0 auto;
     gap: 14px;
     border: 1px solid grey;
@@ -115,10 +116,11 @@ input{
 .searchButtonsContainer button{
     padding: 10px 14px;
     border-radius: 4px;
-    background: #334155;
+    background: #33373a;
     border: 1px solid transparent;
     color: white;
     cursor: pointer;
+    
 }
 
 .searchButtonsContainer button:hover{
@@ -133,14 +135,25 @@ input{
     color:cyan;
 }
 
+/* p {
+    padding-bottom: 85%;    
+} */
+
 footer{
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
+    font-size: .8em;
+    color: white;
+    background-color: #171717;
+  
+    
 }
 
 footer>section{
     padding: 14px;
+    margin-left: -32%;
+    margin-right: -32%;
+    
     
 }
 
@@ -149,7 +162,8 @@ footer>section:last-child{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-top: 1px solid darkgray;
+    border-top: none;
+    
     
 }
 
